@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="yass">
+        <div class="row">
+
+            <div class="probootstrap-heading dark">
+                <div class="yass">
+
+                    <h1 class="primary-heading">Contact</h1>
+                    <h2 class="secondary-heading">Let's Chat</h2>
+                </div>
+                <p>Voluptatibus quaerat laboriosam fugit non Ut consequatur animi est molestiae enim a voluptate totam natus modi debitis dicta impedit voluptatum quod sapiente illo saepe explicabo quisquam perferendis labore et illum suscipit</p>
+            </div>
+
+            <div class="yass">
+                <form [formGroup]="Myform">
+
+                    <div class="form-group row">
+                        <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control form-control-sm" id="colFormLabelSm" formControlName="name" placeholder="col-form-label-sm">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="colFormLabel" formControlName="email" placeholder="col-form-label">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control form-control-lg" id="colFormLabelLg" formControlName="message" placeholder="col-form-label-lg">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+
+                        <button type="submit" class="fadeIn fourth" value="Log In" (click)="contactpost()">submit
+</button></div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
